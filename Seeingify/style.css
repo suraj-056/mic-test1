@@ -1,0 +1,707 @@
+html{
+    cursor: url("../Assets/cursor.svg"), auto;
+    background-color: #000;
+}
+
+
+
+
+
+
+/* custom cursor */
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #525252; 
+    border-radius: 46px;    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7a7a7a; 
+  }
+
+/* .nav-links{
+    color: white;
+} */
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white;
+}
+
+img, svg{
+    width: 100%;
+}
+
+
+
+
+
+body{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+}
+h4{
+    font-size: 3rem;
+    font-weight: 100;
+    background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3rem;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#nav{
+    width: 75%;
+    height: 80px;
+    margin: 0px auto;
+    background-color: transparent;
+    color: #fafafa;
+    display: none;
+}
+
+
+
+
+.navbar-inner {
+    background:transparent;
+}
+a{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 3rem;
+    color: #fafafa;
+}
+#navbutton{
+    width: auto;
+    height: 2.5rem;
+    background-color: transparent;
+    opacity: 0.48;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+}
+.hero{
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../Assets/Smartwatch-hero.png");
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    width: 75%;
+
+}
+.overview{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+.projectoverview{
+    width: 45%;
+}
+.objectives{
+    width: 45%;
+}
+.mockup{
+    margin-top: 16rem;
+    text-align: center;
+    
+}
+.mockup img{
+    width: 100%;
+    align-self: center;
+}
+
+
+/* Research */
+
+.research{
+    width: 45%;
+}
+.research-img{
+    text-align: center;
+    width: 45%;
+}
+.research-img img{
+    width: 50%;
+}
+
+/* competetive */
+
+.competetive{
+    width: 100%;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+}
+.competetive h4{
+    font-size: 5rem;
+    text-align: center;
+}
+.competetive-img {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/* info-archi */
+
+.info-archi{
+    width: 100%;
+    margin-top: 13rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+.info-text h4{
+    font-size: 5rem;
+}
+
+
+
+/* solution1 */
+
+.solution{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+}
+.solution-text{
+    width: 75%;
+    text-align: left;
+    margin-bottom: 10rem;
+}
+.solution-text h4{
+    text-align: left;
+    font-size: 3rem;
+}
+.solution-img{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+/* Style-guide */
+
+.style-guide{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+}
+.style-text{
+    width: 75%;
+    text-align: left;
+    margin-bottom: 10rem;
+}
+.style-text h4{
+    text-align: left;
+    font-size: 3rem;
+}
+.style-img{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+/* Takeaways */
+
+.takeaways{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+}
+.takeaways h4{
+    margin-bottom: 5rem;
+}
+
+
+#myBtn {
+    width: 5rem;
+    height: 5rem;
+    display: hidden; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 5rem; /* Place the button at the bottom of the page */
+    right: 15rem; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #3d3d3d; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 1.5rem; /* Some padding */
+    border-radius: 80px; /* Rounded corners */
+    font-size: 1.5rem; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+
+  .socials{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.socials a{
+    font-size: 1.5rem;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#chat{
+    font-weight: 700;
+    background: -webkit-linear-gradient(#00BF93, #007A5E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+/* for mobile */
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    html{
+        cursor: url("../Assets/cursor.svg"), auto;
+        background-color: #000;
+    }
+    /* custom cursor */
+    
+    /* width */
+    ::-webkit-scrollbar {
+        width: 12px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #1f1f1f; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #525252; 
+        border-radius: 46px;    
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #7a7a7a; 
+      }
+    
+    
+    
+    
+    body{
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Archivo', sans-serif;
+    }
+    h4{
+        font-size: 3rem;
+        width: 100%;
+        font-weight: 100;
+        background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #nav{
+        width: 100%;
+        height: 80px;
+        margin: 0px auto;
+        background-color: transparent;
+    }
+    .navbar-inner {
+        background:transparent;
+    }
+    a{
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 48px;
+        color: #fafafa;
+    }
+    #navbutton{
+        width: 105px;
+        height: 41px;
+        background-color: transparent;
+        opacity: 0.48;
+        color: #fafafa;
+        border: 1px solid #fafafa;
+        border-radius: 4px;
+    }
+    .hero{
+        width: 100%;
+        height: 180px;
+        background-image: url("../Assets/Smartwatch-hero.png");
+        
+    }
+    .main{
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+    .overview{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+        gap: 1.5rem;
+    }
+    .projectoverview{
+        width: 100%;
+    }
+    .objectives{
+        width: 100%;
+    }
+    .mockup{
+        margin-top: 3rem;
+        text-align: center;
+        
+    }
+    .mockup img{
+        width: 100%;
+        align-self: center;
+    }
+    
+    
+    /* Research */
+    
+    .research{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .research-img{
+        text-align: center;
+        width: 100%;
+    }
+    .research-img img{
+        width: 100%;
+    }
+    
+    /* competetive */
+    
+    .competetive{
+        width: 100%;
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        justify-content: center;
+    }
+    .competetive h4{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .competetive-img {
+        text-align: center;
+        width: 100%;
+    }
+    .competetive-img img{
+        width: 100%;
+    }
+    
+    
+    /* info-archi */
+    
+    .info-archi{
+        width: 100%;
+        margin-top: 1.5rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .info-text h4{
+        font-size: 3rem;
+    }
+    .info-img img{
+        width: 100%;
+    }
+    
+    
+    
+    /* solution1 */
+    
+    .solution{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+    .solution-text{
+        width: 100%;
+        text-align: left;
+        margin-bottom: 1.5rem;
+    }
+    .solution-text h4{
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    .solution-img{
+        text-align: center;
+        width: 100%;
+    }
+    .solution-img img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    
+    
+    
+    /* Style-guide */
+    
+    .style-guide{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+    .style-text{
+        width: 100%;
+        text-align: left;
+        margin-bottom: 1.5rem;
+    }
+    .style-text h4{
+        text-align: left;
+        font-size: 3rem;
+    }
+    .style-img{
+        text-align: center;
+        width: 100%;
+    }
+    .style-img img{
+        width: 100%;
+    }
+    
+    
+    
+    
+    /* Takeaways */
+    
+    .takeaways{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+    .takeaways h4{
+        margin-bottom: 1.5rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* for tablet */
+
+
+@media only screen and (max-width: 1080px){
+    
+
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.overview{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+.projectoverview{
+    width: 100%;
+}
+.objectives{
+    width: 100%;
+}
+.mockup{
+    margin-top: 16rem;
+    text-align: center;
+    
+}
+.mockup img{
+    width: 100%;
+    align-self: center;
+}
+
+
+/* Research */
+
+.research{
+    width: 100%;
+}
+.research-img{
+    text-align: center;
+    width: 100%;
+}
+.research-img img{
+    width: 100%;
+}
+.solution{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+}
+.solution-text{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10rem;
+}
+p{
+    padding: 0% 5%;
+}
+h4{
+    padding: 0% 5%;
+}
+.solution-text h4{
+    text-align: left;
+    padding: 0% 5%;
+    font-size: 3rem;
+}
+.solution-img{
+    text-align: center;
+    width: 100%;
+}
+  
+.socials{
+    width: 100%;
+    height: 100%;
+    margin: 10% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0rem;
+    /* flex-wrap: wrap; */
+
+    gap: 1rem;
+}
+.socials a{
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0rem;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#chat{
+    font-weight: 700;
+    background: -webkit-linear-gradient(#00BF93, #007A5E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row-1{
+    width: 100%;
+    margin: 5% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.row-2{
+    width: 100%;
+    display: flex;
+}
+span{
+    color: white;
+}
+.socials a:hover{
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition-duration: 1s;
+    text-decoration: underline;
+    background: -webkit-linear-gradient(#e3e3e3, #9f9f9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+}
